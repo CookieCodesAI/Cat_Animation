@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-rendering: pixelated;
+    height: 100vh;
+    width: 100vw;
+
+}
+.cat {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 59%;
+    left:50%;
+    background: url(Cat_sprite.png) no-repeat;
+    transform: translate(-50% -50%);
+    transform:  scale(15);
+    image-rendering: pixelated;
+    background-size: cover;
+}
+
+.animation{
+    animation: move 2.6s steps(37) 1;
+}
+
+@keyframes move{
+    0% {background-position: 0 0;}
+    100% {background-position: -1184px 0;}
+}
+button{
+    position: absolute;
+    top:10%;
+    left: 42.5%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 252px;
+    height: 81px;
+    padding: 0;
+}
+.button_img {
+    width:252px;
+    height:81px;
+    border: none;
+    image-rendering: pixelated;
+}

@@ -16,7 +16,7 @@
     width: 32px;
     height: 32px;
     position: absolute;
-    top: 59%;
+    top: 60%;
     left:50%;
     background: url(Cat_sprite.png) no-repeat;
     transform: translate(-50% -50%);
